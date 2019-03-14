@@ -43,6 +43,7 @@ int main(void){
   value = get_element(base_address, 1);
   printf("%d\n", value);
 
+  free(base_address);
   return 0;
 }
 
